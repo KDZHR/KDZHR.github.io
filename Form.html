@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Подать заявку на обучение</title>
+    <style>
+        h1 {
+            margin-bottom: 5px;
+            margin-top: 10px;
+        }
+        textarea {
+            background-color: #222222;
+            border-color: #555555;
+            border-style: solid;
+            color: #cccccc;
+        }
+        input {
+            background-color: #222222;
+            border-color: #555555;
+            border-style: solid;
+            color: #cccccc;
+        }
+        select {
+            background-color: #222222;
+            border-color: #555555;
+            border-style: solid;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body bgcolor="black" background="Pattern.jpg">
+<center>
+    <font color="#f5f5f5" face="Arial">
+        <br>
+        <h1>Подай заявку на одну из учебных программ и учись вместе с "Boost it!"</h1><br>
+        <form>
+            <h3><tt>Твоё имя</tt></h3>
+            <input placeholder="Иванов Иван Иванович" required="" style="width: 20%">
+            <br><br>
+            <h3><tt>Твой возраст</tt></h3>
+            <input placeholder="25" required="">
+            <br><br>
+            <h3><tt>Твоя программа обучения</tt></h3>
+            <select required style="width: 20%">
+                <option selected="true" disabled="disabled" value="">Выбери программу обучения</option>
+                <option>Junior</option>
+                <option>Middle</option>
+                <option>Senior</option>
+            </select>
+            <br><br>
+            <h3><tt>Изученные тобой языки</tt></h3>
+            <table width="10%" style="table-layout: fixed">
+                <tr align="center">
+                    <td><input type="checkbox"></td>
+                    <td>C++</td>
+                </tr>
+                <tr align="center">
+                    <td><input type="checkbox"></td>
+                    <td>C#</td>
+                </tr>
+                <tr align="center">
+                    <td><input type="checkbox"></td>
+                    <td>Python</td>
+                </tr>
+                <tr align="center">
+                    <td><input type="checkbox"></td>
+                    <td>Java</td>
+                </tr>
+                <tr align="center">
+                    <td><input type="checkbox"></td>
+                    <td>Kotlin</td>
+                </tr>
+            </table>
+            <br><br>
+            <h3><tt>Твоё свободное время</tt></h3>
+            <select required>
+                <option selected disabled value="">Выбери время обучения</option>
+                <option>Дневное обучение</option>
+                <option>Вечернее обучение</option>
+            </select>
+            <br><br>
+            <h3><tt>Твои интересы, пожелания и мотивация</tt></h3>
+            <textarea placeholder="Расскажи о себе" rows="10" cols="50"></textarea>
+            <br><br>
+            <input type="reset" value="Сбросить введённые данные">
+            <br><br><br><br>
+            <input type="submit" value="Подать заявку"><br>
+        </form>
+    </font>
+</center>
+</body>
+</html>
